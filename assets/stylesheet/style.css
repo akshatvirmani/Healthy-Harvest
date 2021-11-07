@@ -98,6 +98,7 @@ hr{
     margin: 190px 0 0 10rem;
     height: 60vh;
     display: flex;
+    /* background-color: beige; */
     flex-direction: column;
     justify-content: center;
 }
@@ -127,8 +128,8 @@ hr{
 
 .h-content-left button{
     border: none;
-    width: 30%;
-    padding: 10px 20px;
+    /* width: auto; */
+    padding: 1% 2%;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -151,6 +152,7 @@ hr{
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 50px;
+    /* background-color: #030303; */
 }
 
 .info{
@@ -221,7 +223,7 @@ hr{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     background-color: rgba(180, 190, 151, 0.3);
 }
@@ -347,15 +349,18 @@ img {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    /* border: 2px solid black; */
+    /* margin-bottom: 15rem; */
+    /* background-color: #030303; */
     width: 100%;
     background: url(../imgs/right\ branched\ tree.jpg) no-repeat bottom / cover;
 }
 
 .products .product{
     width: 80%;
-    height: 70vh;
+    height: 20vh;
     border-radius: 20px;
-    box-shadow: 1px 1px 20px rgb(168, 175, 174);
+    /* border: 2px solid black; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -366,12 +371,14 @@ img {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
+    /* border: 2px solid black; */
+    /* box-shadow: 1px 1px 20px rgb(168, 175, 174); */
 }
 
 .products .product .product-card{
     width: 17%;
-    height: 40%;
+    /* height: 40%; */
     text-align: center;
 }
 
@@ -383,7 +390,7 @@ img {
 
 .products .product .product-card .pro-img img{
     width: 100%;
-    height: 15vh;
+    height: 100%;
     object-fit: contain;
     object-position: center;
 }
@@ -694,12 +701,10 @@ img {
 }
 
 
-@media only screen and (max-width: 915px){
+@media (max-width: 915px){
     .navbar a{
         display: none;
     }
-
-    
 
     .h-content-left{
         width: 60%;
@@ -809,7 +814,22 @@ img {
         width: 80%;
         height: 50vh;
     }
-    
+
+    .cards1{
+        flex-wrap: wrap;
+    }
+    /* mohit work */
+    /* .cards1{
+        display: flex;
+        flex-direction: column;
+        /* margin: 50% 50% 0% 0%; */
+    /* }
+    .sell{
+        margin-bottom: 10vh;
+    }
+    .Schemes{
+        margin-bottom: 20vh;
+    } */
 }
 
 @media only screen and (max-width: 768px){
